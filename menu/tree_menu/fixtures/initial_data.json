@@ -1,136 +1,137 @@
 [
-{
-  "model": "tree_menu.menu",
-  "pk": 1,
-  "fields": {
-    "name": "main_menu"
+  {
+    "model": "tree_menu.menu",
+    "pk": 1,
+    "fields": {
+      "name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_menu.menu",
+    "pk": 7,
+    "fields": {
+      "name": "footer_menu"
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "Р“Р»Р°РІРЅР°СЏ",
+      "url": "/",
+      "named_url": "",
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "Рћ РЅР°СЃ",
+      "url": "/about/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "menu": 1,
+      "parent": 7,
+      "title": "РќР°С€Р° РєРѕРјР°РЅРґР°",
+      "url": "/about/team/",
+      "named_url": "",
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 9,
+    "fields": {
+      "menu": 1,
+      "parent": 7,
+      "title": "РСЃС‚РѕСЂРёСЏ",
+      "url": "/about/history/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 10,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "РљРѕРЅС‚Р°РєС‚С‹",
+      "url": "/contacts/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 11,
+    "fields": {
+      "menu": 7,
+      "parent": null,
+      "title": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё",
+      "url": "/policy/",
+      "named_url": "",
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 12,
+    "fields": {
+      "menu": 7,
+      "parent": null,
+      "title": "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ СЃРѕРіР»Р°С€РµРЅРёРµ",
+      "url": "/terms/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 13,
+    "fields": {
+      "menu": 7,
+      "parent": null,
+      "title": "Р’Р°РєР°РЅСЃРёРё",
+      "url": "/jobs/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 14,
+    "fields": {
+      "menu": 7,
+      "parent": 13,
+      "title": "IT-РІР°РєР°РЅСЃРёРё",
+      "url": "/jobs/it/",
+      "named_url": "",
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 15,
+    "fields": {
+      "menu": 7,
+      "parent": 13,
+      "title": "РћС„РёСЃРЅС‹Рµ РІР°РєР°РЅСЃРёРё",
+      "url": "/jobs/office/",
+      "named_url": "",
+      "order": 1
+    }
   }
-},
-{
-  "model": "tree_menu.menu",
-  "pk": 7,
-  "fields": {
-    "name": "footer_menu"
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 1,
-  "fields": {
-    "menu": 1,
-    "parent": null,
-    "title": "Главная",
-    "url": "/",
-    "named_url": "",
-    "order": 0
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 7,
-  "fields": {
-    "menu": 1,
-    "parent": null,
-    "title": "О нас",
-    "url": "/about/",
-    "named_url": "",
-    "order": 1
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 8,
-  "fields": {
-    "menu": 1,
-    "parent": 7,
-    "title": "Наша команда",
-    "url": "/about/team/",
-    "named_url": "",
-    "order": 0
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 9,
-  "fields": {
-    "menu": 1,
-    "parent": 7,
-    "title": "История",
-    "url": "/about/history/",
-    "named_url": "",
-    "order": 1
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 10,
-  "fields": {
-    "menu": 1,
-    "parent": null,
-    "title": "Контакты",
-    "url": "/contacts/",
-    "named_url": "",
-    "order": 2
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 11,
-  "fields": {
-    "menu": 7,
-    "parent": null,
-    "title": "Политика конфиденциальности",
-    "url": "/policy/",
-    "named_url": "",
-    "order": 0
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 12,
-  "fields": {
-    "menu": 7,
-    "parent": null,
-    "title": "Пользовательское соглашение",
-    "url": "/terms/",
-    "named_url": "",
-    "order": 1
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 13,
-  "fields": {
-    "menu": 7,
-    "parent": null,
-    "title": "Вакансии",
-    "url": "/jobs/",
-    "named_url": "",
-    "order": 2
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 14,
-  "fields": {
-    "menu": 7,
-    "parent": 13,
-    "title": "IT-вакансии",
-    "url": "/jobs/it/",
-    "named_url": "",
-    "order": 0
-  }
-},
-{
-  "model": "tree_menu.menuitem",
-  "pk": 15,
-  "fields": {
-    "menu": 7,
-    "parent": 13,
-    "title": "Офисные вакансии",
-    "url": "/jobs/office/",
-    "named_url": "",
-    "order": 1
-  }
-}
-]
+  ]
+  
